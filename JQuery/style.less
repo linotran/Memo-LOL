@@ -1,0 +1,31 @@
+.card {
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+	background-color: black;
+	border-radius: 5px;
+	
+	p {
+		display: none;
+	}
+	.imgCardFront{
+		display: none;
+	}
+	.imgCardBack{
+		height:117px;
+		width:216px;
+	}
+}
+
+.card:hover {
+	.imgCardBack{
+		display: none;
+	}
+	.imgCardFront{
+		display: block;
+	}
+	p {
+		display: block;
+	}
+}
